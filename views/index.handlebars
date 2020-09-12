@@ -1,8 +1,8 @@
-<h1>burgers!</h1>
+<h1 class="burger-time">Time to eat a delicious Burger!</h1>
 
-<h2>burgers that you have not eaten!</h2>
+<h2 class="burger-time">Tasty Burgers to eat:</h2>
 
-<ul>
+<ul id="not-eaten">
   {{#each burgers}}
   {{#unless devour}}
   {{> burgers/burger-block devour=true}}
@@ -10,9 +10,9 @@
   {{/each}}
 </ul>
 
-<h2>Burgers that you have eaten!</h2>
+<h2 id="eaten">Burgers that you have eaten!</h2>
 
-<ul>
+<ul id="menu">
   {{#each burgers}}
   {{#if devour}}
   <li>
@@ -22,13 +22,12 @@
   {{/each}}
 </ul>
 
-<h2>Add a burger</h2>
-<form class="create-form">
+
+<form class="create-form add-burger">
 
   <div class="form-group">
-    <label for="ca">burger Name:</label>
-    <input type="text" id="ca" name="name">
+    <input type="text" id="ca" name="name" placeholder="Add a burger">
   </div>
 
-  <button type="submit">Add burger</button>
+  <button id="btn-change" type="submit">Add burger</button>
 </form>

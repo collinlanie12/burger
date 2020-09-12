@@ -1,7 +1,12 @@
+body {
+  background-image: url(https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/09/Pauls-Floury-Baps-1024x450-1.png);
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
@@ -16,4 +21,44 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.add-burger{
+  margin-left: 40%;
+}
+
+#menu li{
+  list-style-type: none;
+  margin-left: 75%;
+  color: yellow;
+}
+
+#btn-change {
+  border-radius: 8px;
+  margin-left: 4%;
+  margin-top: 20%;
+}
+
+#eaten{
+  margin-left: 70%;
+  color: yellow;
+}
+
+#not-eaten{
+  float: left;
+  color: white;
+  list-style-type: none;
+} 
+
+#burgers{
+  margin-left: 40%;
+}
+
+.change-devour{
+  border-radius: 8px; 
+}
+
+.burger-time{
+  margin-left: 30px;
+  color:white;
 }
