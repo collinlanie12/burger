@@ -4,6 +4,7 @@
 
 # Table of Contents
 * [Title](#title)
+* [Description](#description)
 * [Installation](#install)
 * [Usage](#use)
 * [Testing](#test)
@@ -11,7 +12,7 @@
 * [Contact](#info)
 * [License](#license)
 
-## Description:
+## Description: <a name="description"></a>
 Creating a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM!
 
 ## Installation: <a name="install"></a>
@@ -31,6 +32,9 @@ Collin Lanier
 My Github is: [collinlanie12](https://github.com/collinlanie12) :octocat:
 
 You can reach me at:  collinlanier12@gmail.com
+
+## Demo <a name="demo"></a>
+
 ## License: <a name="license"></a>
 
         
