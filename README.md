@@ -10,10 +10,13 @@
 * [Testing](#test)
 * [Contributors](#contributors)
 * [Contact](#info)
+* [Demo](#demo)
 * [License](#license)
 
 ## Description: <a name="description"></a>
 Creating a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM!
+
+Deployed on Heroku: [Heroku Deployed App](https://secret-everglades-14467.herokuapp.com/)
 
 ## Installation: <a name="install"></a>
 
@@ -35,10 +38,9 @@ You can reach me at:  collinlanier12@gmail.com
 
 ## Demo <a name="demo"></a>
 
-
+![Burgers Demo](https://github.com/collinlanie12/burger/blob/master/imgs/burgers-img.png)
 
 ## License: <a name="license"></a>
-
         
 MIT License
 
